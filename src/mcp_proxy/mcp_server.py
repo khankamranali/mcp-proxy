@@ -213,10 +213,10 @@ async def run_mcp_server(
             middleware.append(
                 Middleware(
                     CORSMiddleware,
-                    allow_origins=mcp_settings.allow_origins,
-                    allow_methods=["*"],
-                    allow_headers=["*"],
-                    expose_headers=["*"]
+                    #allow_origins=mcp_settings.allow_origins,
+                    #allow_methods=["*"],
+                    #allow_headers=["*"],
+                    #expose_headers=["*"]
                 ),
             )
 
