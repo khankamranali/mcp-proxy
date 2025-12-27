@@ -216,6 +216,7 @@ async def run_mcp_server(
                     allow_origins=mcp_settings.allow_origins,
                     allow_methods=["*"],
                     allow_headers=["*"],
+                    expose_headers=["*"]
                 ),
             )
 
